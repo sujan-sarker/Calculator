@@ -1,0 +1,47 @@
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="myscript.js"></script>
+
+</head>
+<body>
+<div class="box">
+    <div class="name"><p>A Simple Calculator</p></div>
+    <div class="display"><input type="text"  id="d"></div>
+    <div class="keys">
+        <p>
+            <input type="button" value="7" class="b2" onclick='inVal("7")'>
+            <input type="button" value="8" class="b2" onclick='inVal("8")'>
+            <input type="button" value="9" class="b2" onclick='inVal("9")'>
+            <input type="button" value="/" class="b2" onclick='inVal("/")'>
+            <input type="button" value="<-" class="b2" onclick='undo()'>
+            <input type="button" value="AC" class="b2" onclick='clrAll()'>
+        </p>
+        <p>
+            <input type="button" value="4" class="b2" onclick='inVal("4")'>
+            <input type="button" value="5" class="b2" onclick='inVal("5")'>
+            <input type="button" value="6" class="b2" onclick='inVal("6")'>
+            <input type="button" value="*" class="b2" onclick='inVal("*")'>
+            <input type="button" value="(" class="b2" onclick='inVal("(")'>
+            <input type="button" value=")" class="b2" onclick='inVal(")")'>
+        </p>
+        <p>
+            <input type="button" value="1" class="b2" onclick='inVal("1")'>
+            <input type="button" value="2" class="b2" onclick='inVal("2")'>
+            <input type="button" value="3" class="b2" onclick='inVal("3")'>
+            <input type="button" value="-" class="b2" onclick='inVal("-")'>
+            <input type="button" value="^" class="b2" onclick='inVal("^")'>
+            <input type="button" value="&radic;" class="b2" onclick='inVal("&radic;(")'>
+        </p>
+        <p>
+            <input type="button" value="0" class="b2" onclick='inVal("0")'>
+            <input type="button" value="." class="b2" onclick='inVal(".")'>
+            <input type="button" value="%" class="b2" onclick='inVal("%")'>
+            <input type="button" value="+" class="b2" onclick='inVal("+")'>
+            <input type="button" value="=" class="b3" onclick='calculate()'>
+        </p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+body
+{
+    background-color:grey;
+}
+.box
+{
+    background-color:#3d4543;
+    height:320px;
+    width:255px;
+    border-radius:10px;
+    position:relative;
+    top:80px;
+    left:40%;
+}
+.display
+{
+    background-color:#222;
+    width:220px;
+    position:relative;
+    left:15px;
+    top:20px;
+    height:40px;
+}
+.display input
+{
+    position:relative;
+    left:2px;
+    width: 220px;
+    top:2px;
+    height:35px;
+    color:black;
+    background-color:#bccd95;
+    font-size:21px;
+    text-align:right;
+}
+
+.keys
+{
+    position:relative;
+    top:15px;
+    padding: 20px;
+}
+.b1
+{
+    width:30px;
+    height:30px;
+    color:black;
+    background-color:red;
+    border-bottom:black 2px solid;
+}
+.b1:active
+{
+    border-top:black 2px solid;
+    border-bottom:red 2px solid;
+}
+
+
+.b2
+{
+    width:30px;
+    height:30px;
+    color:black;
+    background-color:grey;
+    border-bottom:black 2px solid;
+}
+.b2:active
+{
+    border-top:black 2px solid;
+    border-bottom:grey 2px solid;
+}
+
+.b3
+{
+    width:64px;
+    height:30px;
+    color:black;
+    background-color:grey;
+    border-bottom:black 2px solid;
+}
+.b3:active
+{
+    border-top:black 2px solid;
+    border-bottom:grey 2px solid;
+}
+.name
+{
+    position:relative;
+    top:10px;
+    right:10px;
+}
+.name p
+{
+  text-align: right;
+  font-size: 15px;
+  color: white;
+}
